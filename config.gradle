@@ -1,0 +1,44 @@
+ext {
+
+    //==Android Third party,include Application Layer,SDK Layer==
+
+    //Android support Libraries
+    externalAndroidxCore = 'androidx.core:core:1.6.0'
+    externalAndroidAppCompat = 'androidx.appcompat:appcompat:1.3.1'
+    externalMultiDex = 'androidx.multidex:multidex:2.0.1'
+    externalAnnotation = 'androidx.annotation:annotation:1.2.0'
+    externalAndroidConstraintlayout = 'androidx.constraintlayout:constraintlayout:2.1.0'
+    externalAndroidRecyclerView = 'androidx.recyclerview:recyclerview:1.2.1'
+    externalAndroidSwipeRefresh = 'androidx.swiperefreshlayout:swiperefreshlayout:1.1.0'
+    externalAndroidLocalBroadcast = 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
+    externalViewPager2 = 'androidx.viewpager2:viewpager2:1.0.0'
+    externalExifInterface = 'androidx.exifinterface:exifinterface:1.3.3'
+    externalTransition = 'androidx.transition:transition:1.4.1'
+
+    externalAndroidMaterial = 'com.google.android.material:material:1.3.0'
+    externalGSON = 'com.google.code.gson:gson:2.8.6'
+    externalZxing = 'com.google.zxing:core:3.4.0'
+
+    externalOKHTTP = 'com.squareup.okhttp3:okhttp:4.9.1'
+    externalGlide = 'com.github.bumptech.glide:glide:4.12.0'
+    externalEventBus = 'org.greenrobot:eventbus:3.2.0'
+    externalLottie = 'com.airbnb.android:lottie:3.4.2'
+    externalMMKV = 'com.tencent:mmkv-static:1.2.10'
+
+    externalAliyunOSS = 'com.aliyun.dpa:oss-android-sdk:2.9.5'
+    externalImmersionBar = 'com.gyf.immersionbar:immersionbar:3.0.0'
+    externalLuban = 'top.zibin:Luban:1.1.8'
+    externalAwesomeQRCode = 'com.github.SumiMakito:AwesomeQRCode:1.2.0'
+    externalCacheWebview = 'ren.yale.android:cachewebviewlib:2.1.8'
+    externalCameraView = 'com.otaliastudios:cameraview:2.7.0'
+    externalWaterMark = 'com.huangyz0918:androidwm-light:0.1.2' // 水印
+    externalShortcutBadger = "me.leolin:ShortcutBadger:1.1.22@aar"
+    externalJsBridge = 'com.github.lzyzsd:jsbridge:1.0.4'
+
+
+    //Android SDK/Tools Version
+    externalCompileSdkVersion = 29
+    externalBuildToolsVersion = '29.0.0'
+    externalMinSdkVersion = 16
+    externalTargetSdkVersion = 29
+}

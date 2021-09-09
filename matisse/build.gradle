@@ -17,10 +17,10 @@ apply plugin: 'com.android.library'
 apply plugin: 'checkstyle'
 
 android {
-    compileSdkVersion rootProject.ext.COMPILE_SDK_VERSION
+    compileSdkVersion rootProject.ext.externalCompileSdkVersion
     defaultConfig {
         multiDexEnabled true
-        minSdkVersion rootProject.ext.MIN_SDK_VERSION
+        minSdkVersion rootProject.ext.externalMinSdkVersion
     }
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8

@@ -17,10 +17,11 @@
 
 buildscript {
     repositories {
-        jcenter()
+        maven { url 'http://localhost:8081/artifactory/android_group/' }
+        maven { url "https://mirrors.tencent.com/repository/maven/tencent_public" }
         google()
     }
-    apply from: '../../common/thirdparty-lib/config.gradle'
+    apply from: 'config.gradle'
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.1'
         classpath 'com.novoda:bintray-release:0.9.1'
@@ -29,18 +30,12 @@ buildscript {
 
 allprojects {
     repositories {
-        jcenter()
+        maven { url 'http://localhost:8081/artifactory/android_group/' }
+        maven { url "https://mirrors.tencent.com/repository/maven/tencent_public" }
         google()
     }
 }
 
 task clean(type: Delete) {
     delete rootProject.buildDir
-}
-
-ext {
-    BUILD_TOOLS_VERSION = "30.0.2"
-    COMPILE_SDK_VERSION = 29
-    MIN_SDK_VERSION = 22
-    TARGET_SDK_VERSION = 29
 }
