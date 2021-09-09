@@ -16,12 +16,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion rootProject.ext.externalCompileSdkVersion
+    compileSdkVersion rootProject.ext.compileSdkVersion
 
     defaultConfig {
         applicationId 'com.zhihu.matisse.sample'
-        minSdkVersion rootProject.ext.externalMinSdkVersion
-        targetSdkVersion rootProject.ext.externalTargetSdkVersion
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
     }

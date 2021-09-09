@@ -37,8 +37,8 @@ ext {
 
 
     //Android SDK/Tools Version
-    externalCompileSdkVersion = 29
-    externalBuildToolsVersion = '29.0.0'
-    externalMinSdkVersion = 16
-    externalTargetSdkVersion = 29
+    compileSdkVersion = 29
+    buildToolsVersion = '29.0.3'
+    minSdkVersion = 16
+    targetSdkVersion = 29
 }
