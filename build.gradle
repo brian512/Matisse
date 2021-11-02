@@ -17,9 +17,7 @@
 
 buildscript {
     repositories {
-        maven { url 'http://localhost:8081/artifactory/android_group/' }
-        maven { url "https://mirrors.tencent.com/repository/maven/tencent_public" }
-        google()
+        maven { url 'https://artifactory.micoworld.net/artifactory/android_group/' }
     }
     apply from: 'config.gradle'
     dependencies {
@@ -30,9 +28,7 @@ buildscript {
 
 allprojects {
     repositories {
-        maven { url 'http://localhost:8081/artifactory/android_group/' }
-        maven { url "https://mirrors.tencent.com/repository/maven/tencent_public" }
-        google()
+        maven { url 'https://artifactory.micoworld.net/artifactory/android_group/' }
     }
 }
 
